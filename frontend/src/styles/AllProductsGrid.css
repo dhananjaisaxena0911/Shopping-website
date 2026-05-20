@@ -1,0 +1,106 @@
+.all-products-wrapper{
+  max-width: 1300px;
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  position: relative;
+}
+
+.product-grid{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    top: 0px;
+    position: relative;
+    display: grid;
+}
+.product-card-allProducts {
+  width: 265px;
+  height: fit-content;
+  transition: transform 0.3s ease; /* Smooth transition */
+  cursor: pointer; /* Optional: makes it feel clickable */
+}
+
+.product-card-allProducts:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
+}
+
+.image-wrapper-allProducts img{
+    width: 265px;
+    height: 314px;
+    display: block;
+    object-fit: cover;
+}
+.product-type{
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Beatrice-medium', sans-serif;
+}
+.product-name{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Beatrice-medium', sans-serif;
+}
+.product-info{
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.product-price{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Beatrice-medium', sans-serif;
+}
+.product-name-price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-link{
+  text-decoration: none;
+  color: inherit;
+}
+@media (max-width: 1200px) {
+    .all-products-wrapper {
+      left: 0;
+      padding: 20px;
+      position: relative;
+    }
+  
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr); 
+      width: 100px;
+    }
+  
+    .product-card-allProducts{
+      width: 100%;
+    }
+    .image-wrapper-allProducts img {
+        width: 169px;
+        height: 200px;
+      }
+  
+    .all-products-wrapper {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: auto;
+      margin-left: 0px;
+
+    }
+  }

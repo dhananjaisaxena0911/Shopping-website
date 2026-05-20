@@ -1,0 +1,56 @@
+.approach-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 1500px;
+    gap: 40px; 
+    width: 100%;
+}
+
+.text-section {
+    text-align: center;
+    max-width: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.text-section h2{
+   font-family: 'Beatrice-regular',sans-serif;
+   font-size: 48px;
+   letter-spacing: 2px;
+   line-height: 40px;
+   white-space: nowrap;
+}
+.text-section p {
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: auto;
+    font-family: 'Beatrice-light', sans-serif;
+  }
+  .image-sectionApproach {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+    
+    top: 100px;
+  }
+  .image-sectionApproach img{
+    width: 317px;
+    height: 410px;
+  }
+
+.image-sectionApproach img:nth-child(odd) {
+    transform: translateY(-20px);
+  }
+  
+.image-sectionApproach img:nth-child(even) {
+    transform: translateY(20px);
+  }

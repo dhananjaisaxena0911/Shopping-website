@@ -1,0 +1,36 @@
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-header h2 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Beatrice-bold', sans-serif;
+    letter-spacing: 2px;
+    flex: 1; 
+}
+
+.dropdown-header img {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: 208px; 
+    margin-top: -15px;
+}
+
+.dropdown-content {
+    margin-top: 8px;
+}
+
+.dropdown-content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.dropdown-content-wrapper.open {
+    max-height: 500px;
+}

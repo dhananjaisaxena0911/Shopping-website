@@ -1,0 +1,96 @@
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px;
+    width: 306px;
+    height: 307px;
+    align-items:flex-start;
+}
+
+.cart-summary h3 {
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Beatrice-deck-trial-medium',sans-serif;
+    padding-left: 40px;
+    padding-top: 51px;
+    margin-bottom: 20px;
+}
+
+.cart-summary p {
+    padding-left: 40px;
+    margin-top: 0px;  
+    margin-bottom: 2px; 
+    letter-spacing: 1px;
+    font-family: 'Beatrice-deck-trial-medium', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.cart-summary h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.terms {
+    position: relative;
+    padding-left: 50px; 
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 11px; 
+    font-family: 'Beatrice-light', sans-serif;
+    
+}
+
+.custom-checkmark-cart {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkmark {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    height: 18px;
+    width: 18px; 
+    background-color: #eee;
+    border-radius: 0px; 
+    border: 1px solid #ccc;
+}
+
+.custom-checkmark-cart:checked + .custom-checkmark {
+    background-color: grey;
+    border-color: #8A8A8A;
+}
+
+.custom-checkmark-cart:checked + .custom-checkmark:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+.Continuebutton {
+    background-color: #D9D9D9;
+    color: #000000;
+    width: 229px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 19px auto 0; 
+    font-family: 'Beatrice-deck-trial-medium', sans-serif;
+
+}

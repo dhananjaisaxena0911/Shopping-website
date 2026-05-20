@@ -1,0 +1,78 @@
+.cart-item img{
+    width: 265px;
+    height: 300px;
+}
+.hcolor-box {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  
+  .item-variant {
+    margin: 0px;
+    font-size: 14px;
+    color: #000000;
+  }
+  .product-name-price-row-23 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px; 
+  }
+
+  .product-type-23{
+    font-size: 12px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+  }
+  .quantity-controls {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #8A8A8A;
+    width: 35px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+  }
+  
+  .quantity-controls button,
+  .quantity-controls span {
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: #000000;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-top: 2px solid #8A8A8A;
+  }
+  
+  .quantity-controls button:first-child {
+    border-top: none;
+  }
+  
+  .quantity-controls span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .UpperSection{
+    display: flex;
+    flex-direction: 'row';
+    gap: 20px;
+  }
+  
+  .right-info{
+    justify-content: center;
+  }
+
+  .remove-items{
+    border: none;
+  }
+
+  .remove-items img{
+    width: 20px;
+    height: 17px;
+  }
+ 

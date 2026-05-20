@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  
+  html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3; /* 20% visibility */
+    z-index: -2;
+  }
+  
+  @font-face {
+    font-family: "Beatrice-thin";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Beatrice Display Trial Thin"),
+      url("./fonts/BeatriceDeck-Thin.woff2") format("woff");
+  }
+  @font-face {
+    font-family: "Beatrice-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Beatrice Display Trial Regular"),
+      url("./fonts/BeatriceDeck-Regular.woff2") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Beatrice-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Beatrice Display Trial Medium"),
+      url("./fonts/BeatriceDeck-Medium.woff2") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Beatrice-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Beatrice Display Trial Bold"),
+      url("./fonts/BeatriceDeck-Bold.woff2") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Beatrice-extrabold";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Beatrice Display Trial Extrabold"),
+      url("./fonts/BeatriceDeck-Extrabold.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Beatrice-light";
+    font-style: normal;
+    font-weight: 400; /* Light fonts are usually 300 or 400 weight */
+    src: local("Beatrice Trail Light"),
+         url("./fonts/BeatriceTRIAL-Light-BF64829e8b17e87.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Beatrice-deck-trial-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Beatrice Trail Light"),
+         url("./fonts/BeatriceTRIAL-Medium-BF64829e8ac35f2.otf") format("opentype");
+  }
+  *{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  

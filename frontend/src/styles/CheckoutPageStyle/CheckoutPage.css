@@ -1,0 +1,283 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 50px;
+    gap: 40px;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+    height: 676px;
+  }
+  
+  .summary-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 75px;
+   margin-right: 10%;
+   width: 497px;
+  }
+  
+  .chekout-title-page{
+    font-size:32px;
+    font-family: "beatrice-extrabold",sans-serif;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+
+  .navigation-checkout-page p{
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "beatrice-trial-medium",sans-serif;
+  }
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkout-form h6{
+    font-size:16px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  
+  .checkout-form input{
+    margin-bottom: 15px;
+    font-family: "Beatrice-light",sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    background-color: transparent;
+    width: 468px;
+    border: 1px solid #D9D9D9;
+    height: 44px;
+  }
+  .row-checkoutpage{
+    display: flex;
+    gap: 6px;
+  }
+  
+  .checkout-form .row {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .shipping-button {
+    display: flex;
+    margin-left: 50.7%;
+    padding: 19px;
+    width: 231px;
+    height: 44px;
+    background-color: #D9D9D9;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    font-size: 14px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+  }
+  
+  .order-summary {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    width: 406px;
+    height: auto;
+    padding: 35px 39px;
+  }
+
+  .order-summary h6{
+    font-size: 14px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+  
+  .order-item {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    margin-bottom: 23px;
+  }
+  
+  .order-item img {
+    width: 113px;
+    height: 134px;
+    object-fit: cover;
+    border-radius: 0px;
+    border: 1px solid #D9D9D9;
+  }
+  .Right-section-checkout-Card{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-row-checkout-card{
+    margin-top: 16px;
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 18px;
+    width: 205px;
+    height: 18px;
+    justify-content: space-between;
+  }
+  .first-row-checkout-card p{
+    font-size:11px;
+    color: #000000;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+  }
+
+  .first-row-checkout-card span{
+    font-size: 12px;
+   
+  }
+
+  .second-row-checkout-card{
+    display: flex;
+
+    margin-bottom: 0px;
+  }
+  .second-row-checkout-card p{
+    font-size: 12px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+  }
+
+  .third-row-checkout-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 203px;
+    height: 21px;
+  }
+  .quantity-third-row{
+    font: size 14px;
+    color: #000E8A;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+  }
+
+  .price-third-row{
+    font-size:12px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+    color: #000000;
+  }
+  
+  .change-text {
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: auto;
+  }
+  
+  .order-total {
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+    margin-top: 16px;
+    display: flex;
+    width: 328px;
+    height: 93px;
+    flex-direction: column;
+  }
+
+  .first-row-bottom-checkout{
+    display: flex;
+    width: 328px;
+    height: 23px;
+    justify-content: space-between;
+  }
+  .first-row-bottom-checkout p{
+    font-size: 12px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+    color: #000000;
+  }
+  .second-row-bottom-checkout{
+    display: flex;
+    width: 328px;
+    height: 23px;
+    justify-content: space-between;
+  }
+
+  .second-row-bottom-checkout p{
+    font-size: 12px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+    color: #000000;
+  }
+
+
+  .third-row-bottom-checkout{
+    display: flex;
+    width: 328px;
+    height: 22px;
+    justify-content: space-between;
+  }
+
+  .third-row-bottom-checkout p{
+    font-size: 14px;
+    font-family: "Beatrice-deck-trial-medium",sans-serif;
+    color: #000000;
+  }
+  
+
+  @media (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+      padding: 140px 20px;
+      gap: 170px;
+    }
+  
+    .form-section, .summary-section {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .checkout-form input,
+    .checkout-form .row-checkoutpage input {
+      width: 100%;
+    }
+  
+    .checkout-form .row-checkoutpage {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .shipping-button {
+      margin: 20px 0 0 auto;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .order-summary {
+      width: 100%;
+      padding: 25px 20px;
+    }
+  
+    .first-row-bottom-checkout,
+    .second-row-bottom-checkout,
+    .third-row-bottom-checkout {
+      width: 100%;
+    }
+  
+    .order-item img {
+      width: 90px;
+      height: 110px;
+    }
+
+    .order-total {
+      width: 100%;
+      max-width: 328px; /* keeps it visually consistent */
+      margin: 0 auto;    /* centers it horizontally */
+      padding-top: 10px;
+    }
+    
+  
+    .first-row-checkout-card,
+    .third-row-checkout-card {
+      width: 100%;
+    }
+  
+    .Right-section-checkout-Card {
+      width: 100%;
+    }
+  }
+  
